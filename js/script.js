@@ -107,3 +107,11 @@ hamburger.addEventListener("click", () => {
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
 });
+
+
+window.addEventListener("load", () => {
+  const container = document.querySelector(".projects-grid");
+  if (container) {
+    container.scrollLeft = 0;
+  }
+});

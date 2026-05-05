@@ -8,7 +8,7 @@
 
     /* NAVBAR */
     header{
-      height:70px;
+      height:100px;
       display:flex;
       align-items:center;
       justify-content:space-between;
@@ -119,7 +119,7 @@
 
 
 
-    /* =====================
+/* =====================
    GLOBAL ANIMATIONS
 ===================== */
 
@@ -502,7 +502,6 @@ header {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px); /* fixed card width */
-    justify-content: center; /* center when only 1 card */
     gap: 35px;
     position: relative;
     z-index: 1;
@@ -528,6 +527,7 @@ header {
     content:"";
     position:absolute;
     inset:0;
+    pointer-events: none;
     border-radius:18px;
     padding:1px;
     background:linear-gradient(
@@ -597,7 +597,7 @@ header {
     margin-bottom: 6px;
 }
 .project-info p {
-    font-size: 13px;
+    font-size: 11px;
     color: #bbb;
     line-height: 1.4;
     margin-bottom: 8px;
@@ -662,15 +662,30 @@ header {
    PROJECT CARD ENTRY ANIMATION
 ================================= */
 
-.project-card {
-    opacity: 0;
-    transform: translateY(60px) scale(0.96);
+/* .project-card {
+    opacity: 1;
+    transform: none;
     transition: all 0.8s cubic-bezier(.17,.67,.37,1);
 }
 
 .project-card.show {
     opacity: 1;
     transform: translateY(0) scale(1);
+} */
+
+@media (min-width: 769px){
+
+  .project-card {
+    opacity: 0;
+    transform: translateY(60px) scale(0.96);
+    transition: all 0.8s cubic-bezier(.17,.67,.37,1);
+  }
+
+  .project-card.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
 }
 
 /* ===============================
@@ -1111,6 +1126,7 @@ display:block;
 
 .hero{
 background:url("../asset/image/mobile lion.png") center/cover no-repeat;
+padding-bottom: 20px;
 }
 
 }
@@ -1139,7 +1155,7 @@ height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
-padding:0 20px;
+padding:0 30px;
 }
 
 .hero-content{
@@ -1282,20 +1298,20 @@ OUR PROJECTS
 ================================= */
 
 .projects-grid{
-display:flex;
-overflow-x:auto;
-gap:18px;
-scroll-snap-type:x mandatory;
+  display:flex;
+  overflow-x:auto;
+  gap:8px;
+  scroll-snap-type:x proximity;
+  padding: 10px 16px;   /* ✅ IMPORTANT FIX */
 }
-
 .projects-grid::-webkit-scrollbar{
-display:none;
+  display:none;
 }
-
 .project-card{
-min-width:25px;
-padding:16px;
-scroll-snap-align:start;
+  min-width:250px;
+  max-width:270px;
+  flex-shrink:0;
+  scroll-snap-align:start;
 }
 
 /* =================================
@@ -1418,3 +1434,6 @@ overflow:hidden;
 }
 
 }
+
+
+
