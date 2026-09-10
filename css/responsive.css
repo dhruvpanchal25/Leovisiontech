@@ -1,0 +1,4729 @@
+/* ==========================================
+   LAPTOP
+========================================== */
+
+@media (max-width:1200px){
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:992px){
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:576px){
+
+}
+
+@media (max-width:992px){
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .nav-right{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:flex;
+
+        align-items:center;
+        justify-content:center;
+
+        width:48px;
+        height:48px;
+
+        background:var(--card-color);
+
+        border:1px solid var(--border-color);
+
+        border-radius:12px;
+
+        color:var(--text-color);
+
+        font-size:28px;
+
+        transition:var(--transition);
+
+    }
+
+    .menu-toggle:hover{
+
+        border-color:var(--primary-color);
+
+        color:var(--primary-color);
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .nav-links{
+        display:none;
+    }
+
+    .nav-right{
+        display:none;
+    }
+
+    .menu-toggle{
+        display:flex;
+    }
+
+}
+
+
+/* ==========================================
+   HERO — TABLET
+   1024px and below
+========================================== */
+
+@media (max-width: 1024px){
+
+    .hero{
+        padding-top:110px;
+    }
+
+    .hero-content{
+
+        grid-template-columns:1fr;
+
+        min-height:auto;
+
+        gap:50px;
+
+        padding:50px 0 80px;
+
+    }
+
+    .hero-text{
+
+        text-align:center;
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .hero-label{
+        justify-content:center;
+    }
+
+    .hero h1{
+
+        font-size:54px;
+
+    }
+
+    .hero-description{
+
+        max-width:650px;
+
+        font-size:17px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-trust{
+
+        justify-content:center;
+
+    }
+
+    .scroll-down{
+
+        justify-content:center;
+
+    }
+
+    .hero-visual{
+
+        width:100%;
+
+    }
+
+    .hero-visual img{
+
+        max-width:700px;
+
+    }
+
+}
+
+/* ==========================================
+   HERO — MOBILE
+   768px and below
+========================================== */
+
+@media (max-width: 768px){
+
+    .hero{
+
+        padding-top:100px;
+
+    }
+
+    .hero-content{
+
+        gap:35px;
+
+        padding:35px 0 60px;
+
+    }
+
+    .hero-label{
+
+        font-size:11px;
+
+        gap:10px;
+
+        margin-bottom:20px;
+
+    }
+
+    .label-line{
+
+        width:24px;
+
+    }
+
+    .hero h1{
+
+        font-size:42px;
+
+        line-height:1.12;
+
+        letter-spacing:-1px;
+
+    }
+
+    .hero-description{
+
+        margin-top:20px;
+
+        font-size:15px;
+
+        line-height:1.7;
+
+        max-width:500px;
+
+    }
+
+    .hero-buttons{
+
+        width:100%;
+
+        flex-direction:column;
+
+        gap:14px;
+
+        margin-top:30px;
+
+    }
+
+    .hero-btn{
+
+        width:100%;
+
+        max-width:320px;
+
+        height:58px;
+
+        padding:0 24px;
+
+        border-radius:15px;
+
+    }
+
+    .hero-trust{
+
+        margin-top:32px;
+
+        gap:12px;
+
+        flex-direction:column;
+
+    }
+
+    .hero-trust p{
+
+        font-size:14px;
+
+        text-align:center;
+
+    }
+
+    .avatar{
+
+        width:38px;
+
+        height:38px;
+
+    }
+
+    .scroll-down{
+
+        margin-top:35px;
+
+        font-size:14px;
+
+    }
+
+    .scroll-icon{
+
+        width:34px;
+
+        height:44px;
+
+    }
+
+    .hero-visual img{
+
+        width:100%;
+
+        max-width:500px;
+
+    }
+
+}
+
+/* ==========================================
+   HERO — SMALL MOBILE
+   480px and below
+========================================== */
+
+@media (max-width: 480px){
+
+    .hero{
+
+        padding-top:95px;
+
+    }
+
+    .hero-content{
+
+        padding:25px 0 50px;
+
+        gap:30px;
+
+    }
+
+    .hero-label{
+
+        font-size:9px;
+
+        letter-spacing:.3px;
+
+    }
+
+    .label-line{
+
+        width:20px;
+
+    }
+
+    .hero h1{
+
+        font-size:38px;
+
+        line-height:1.15;
+
+    }
+
+    .hero-description{
+
+        font-size:14px;
+
+        line-height:1.65;
+
+    }
+
+    .hero-buttons{
+
+        margin-top:25px;
+
+    }
+
+    .hero-btn{
+
+        max-width:55%;
+
+        height:55px;
+
+        font-size:14px;
+
+    }
+
+    .hero-trust{
+
+        margin-top:28px;
+
+    }
+
+    .hero-trust p{
+
+        font-size:13px;
+
+    }
+
+    .hero-visual img{
+
+        max-width:100%;
+
+    }
+
+    .scroll-down{
+
+        margin-top:30px;
+
+    }
+
+}
+
+/* ==========================================
+   TECHNOLOGIES — TABLET
+========================================== */
+
+@media (max-width:1024px){
+
+    .technologies{
+
+        padding:15px 0 35px;
+
+    }
+
+    .tech-box{
+
+        border-radius:16px;
+
+    }
+
+    .tech-track{
+
+        gap:50px;
+
+    }
+
+    .tech-item{
+
+        font-size:15px;
+
+    }
+
+    .tech-item img{
+
+        width:30px;
+        height:30px;
+
+    }
+
+}
+
+/* ==========================================
+   ABOUT — TABLET
+========================================== */
+
+@media (max-width:1024px){
+
+    .about{
+
+        padding:80px 0;
+
+    }
+
+    .about-content{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .about-text{
+
+        text-align:center;
+
+    }
+
+    .about-text > p{
+
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+
+    .section-label{
+
+        justify-content:center;
+
+    }
+
+    .about-features{
+
+        max-width:700px;
+
+        margin-left:auto;
+        margin-right:auto;
+
+        text-align:left;
+
+    }
+
+    .about-visual{
+
+        max-width:750px;
+
+        width:100%;
+
+        margin:auto;
+
+    }
+
+}
+
+/* ==========================================
+   ABOUT — MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .about{
+
+        padding:65px 0;
+
+    }
+
+    .about-content{
+
+        gap:35px;
+
+    }
+
+    .about-text h2{
+
+        font-size:32px;
+
+        line-height:1.2;
+
+    }
+
+    .about-text > p{
+
+        font-size:14px;
+
+        line-height:1.7;
+
+        margin-top:18px;
+
+    }
+
+    .about-features{
+
+        grid-template-columns:1fr;
+
+        gap:24px;
+
+        margin-top:32px;
+
+    }
+
+    .about-feature{
+
+        max-width:400px;
+
+        margin:auto;
+
+    }
+
+    .about-feature p{
+
+        max-width:260px;
+
+    }
+
+    .about-stats{
+
+        position:relative;
+
+        left:auto;
+        right:auto;
+        bottom:auto;
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+        margin:15px;
+
+        padding:18px;
+
+    }
+
+    .about-stat{
+
+        padding:0;
+
+        border-right:none;
+
+        border-bottom:1px solid var(--border-color);
+
+        padding-bottom:15px;
+
+    }
+
+    .about-stat:last-child{
+
+        border-bottom:none;
+
+        padding-bottom:0;
+
+    }
+
+}
+
+/* ==========================================
+   ABOUT — SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .about{
+
+        padding:55px 0;
+
+    }
+
+    .section-label{
+
+        font-size:9px;
+
+    }
+
+    .about-text h2{
+
+        font-size:28px;
+
+    }
+
+    .about-text > p{
+
+        font-size:13px;
+
+    }
+
+    .feature-icon{
+
+        width:42px;
+
+        height:42px;
+
+    }
+
+    .about-feature h3{
+
+        font-size:13px;
+
+    }
+
+    .about-feature p{
+
+        font-size:10px;
+
+    }
+
+    .about-stats{
+
+        margin:10px;
+
+    }
+
+    .about-stat strong{
+
+        font-size:23px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SERVICES — TABLET
+========================================== */
+
+@media (max-width:1200px){
+
+    .services{
+
+        padding:60px 0 80px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:repeat(3, 1fr);
+
+        gap:18px;
+
+    }
+
+    .service-card{
+
+        min-height:290px;
+
+    }
+
+}
+
+/* ==========================================
+   SERVICES — MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .services{
+
+        padding:55px 0 70px;
+
+    }
+
+    .services-label{
+
+        margin-bottom:20px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:repeat(2, 1fr);
+
+        gap:14px;
+
+    }
+
+    .service-card{
+
+        min-height:270px;
+
+        padding:22px 17px 18px;
+
+    }
+
+    .service-icon{
+
+        width:50px;
+
+        height:50px;
+
+        margin-bottom:22px;
+
+        font-size:26px;
+
+    }
+
+    .service-card h3{
+
+        font-size:14px;
+
+        margin-bottom:10px;
+
+    }
+
+    .service-card p{
+
+        font-size:10px;
+
+        line-height:1.6;
+
+    }
+
+    .service-arrow{
+
+        font-size:24px;
+
+    }
+
+}
+
+/* ==========================================
+   SERVICES — SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .services{
+
+        padding:50px 0 60px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+        gap:14px;
+
+    }
+
+    .service-card{
+
+        min-height:230px;
+
+        padding:22px;
+
+    }
+
+    .service-icon{
+
+        margin-bottom:18px;
+
+    }
+
+    .service-card h3{
+
+        font-size:15px;
+
+    }
+
+    .service-card p{
+
+        font-size:11px;
+
+        max-width:280px;
+
+    }
+
+}
+
+/* ==========================================
+   PORTFOLIO — TABLET
+========================================== */
+
+@media (max-width:1200px){
+
+    .portfolio{
+        padding:70px 0 80px;
+    }
+
+    .portfolio-track{
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap:18px;
+        width:100%;
+    }
+
+    .project-card{
+        width:100%;
+        min-width:0;
+    }
+
+    /* Hide slider arrows on tablet */
+    .portfolio-btn{
+        display:none;
+    }
+
+    /* Hide dots on tablet */
+    .portfolio-dots{
+        display:none;
+    }
+
+}
+
+
+/* ==========================================
+   PORTFOLIO — MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .portfolio{
+        padding:60px 0 70px;
+    }
+
+
+    /* ======================================
+       PORTFOLIO HEADER
+    ====================================== */
+
+    .portfolio-header{
+
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+
+        margin-bottom:25px;
+
+    }
+
+    .view-projects{
+
+        font-size:13px;
+
+        display:flex;
+        align-items:center;
+        gap:7px;
+
+    }
+
+    .view-projects span{
+
+        font-size:18px;
+
+    }
+
+
+    /* ======================================
+       SLIDER
+    ====================================== */
+
+    .portfolio-slider{
+
+        position:relative;
+
+        width:100%;
+
+        padding:0 40px;
+
+        overflow:hidden;
+
+    }
+
+
+    /* ======================================
+       TRACK
+    ====================================== */
+
+    .portfolio-track{
+
+        display:flex;
+
+        width:100%;
+
+        gap:1;
+
+        transition:transform .5s ease;
+
+        will-change:transform;
+
+    }
+
+
+    /* ======================================
+       PROJECT CARD
+    ====================================== */
+
+    .project-card{
+
+        flex:0 0 100%;
+
+        width:100%;
+
+        min-width:100%;
+
+    }
+
+
+    /* ======================================
+       PROJECT IMAGE
+    ====================================== */
+
+    .project-image{
+
+        width:100%;
+
+        aspect-ratio:16 / 9;
+
+        overflow:hidden;
+
+    }
+
+    .project-image img{
+
+        width:100%;
+
+        height:100%;
+
+        object-fit:cover;
+
+    }
+
+
+    /* ======================================
+       PROJECT CONTENT
+    ====================================== */
+
+    .project-content{
+
+        padding:20px;
+
+    }
+
+    .project-content h3{
+
+        font-size:19px;
+
+        line-height:1.3;
+
+        margin-bottom:8px;
+
+    }
+
+    .project-content p{
+
+        font-size:14px;
+
+        line-height:1.6;
+
+    }
+
+    .project-link{
+
+        display:inline-flex;
+
+        align-items:center;
+
+        gap:8px;
+
+        margin-top:20px;
+
+        font-size:14px;
+
+    }
+
+
+    /* ======================================
+       SLIDER ARROWS
+    ====================================== */
+
+    .portfolio-btn{
+
+        position:absolute;
+
+        top:50%;
+
+        transform:translateY(-50%);
+
+        width:38px;
+
+        height:38px;
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+        border-radius:50%;
+
+        border:1px solid var(--border-color);
+
+        background:var(--card-color);
+
+        color:var(--text-color);
+
+        font-size:18px;
+
+        z-index:20;
+
+        transition:
+
+            background .3s ease,
+
+            border-color .3s ease,
+
+            color .3s ease,
+
+            transform .3s ease;
+
+    }
+
+
+    .portfolio-prev{
+
+        left:0;
+
+    }
+
+
+    .portfolio-next{
+
+        right:0;
+
+    }
+
+
+    .portfolio-btn:hover{
+
+        background:var(--primary-color);
+
+        border-color:var(--primary-color);
+
+        color:#fff;
+
+    }
+
+
+    /* ======================================
+       SLIDER DOTS
+    ====================================== */
+
+    .portfolio-dots{
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+        gap:8px;
+
+        margin-top:22px;
+
+    }
+
+
+    .portfolio-dot{
+
+        width:9px;
+
+        height:9px;
+
+        padding:0;
+
+        border:none;
+
+        border-radius:50%;
+
+        background:var(--text-light);
+
+        opacity:.45;
+
+        transition:
+
+            width .3s ease,
+
+            background .3s ease,
+
+            opacity .3s ease;
+
+    }
+
+
+    .portfolio-dot.active{
+
+        width:28px;
+
+        border-radius:999px;
+
+        background:var(--primary-color);
+
+        opacity:1;
+
+    }
+
+}
+
+
+/* ==========================================
+   PORTFOLIO — SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .portfolio{
+
+        padding:50px 0 60px;
+
+    }
+
+
+    .portfolio-slider{
+
+        padding:0 36px;
+
+    }
+
+
+    .portfolio-btn{
+
+        width:34px;
+
+        height:34px;
+
+        font-size:16px;
+
+    }
+
+
+    .project-content{
+
+        padding:18px;
+
+    }
+
+
+    .project-content h3{
+
+        font-size:18px;
+
+    }
+
+
+    .project-content p{
+
+        font-size:13px;
+
+    }
+
+
+    .project-link{
+
+        font-size:13px;
+
+    }
+
+
+    .portfolio-dots{
+
+        margin-top:20px;
+
+    }
+
+}
+
+/* ==========================================
+   PROCESS — TABLET
+========================================== */
+
+@media (max-width:1200px){
+
+    .process{
+
+        padding:70px 0 80px;
+
+    }
+
+    .process-grid{
+
+        grid-template-columns:repeat(3, 1fr);
+
+        row-gap:55px;
+
+    }
+
+    .process-line{
+
+        display:none;
+
+    }
+
+    .process-icon{
+
+        width:76px;
+
+        height:76px;
+
+    }
+
+}
+
+/* ==========================================
+   PROCESS — MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .process{
+
+        padding:60px 0 70px;
+
+    }
+
+    .process-label{
+
+        margin-bottom:28px;
+
+    }
+
+    .process-grid{
+
+        grid-template-columns:repeat(2, 1fr);
+
+        gap:40px 20px;
+
+    }
+
+    .process-line{
+
+        display:none;
+
+    }
+
+    .process-icon{
+
+        width:68px;
+
+        height:68px;
+
+        margin-bottom:10px;
+
+    }
+
+    .process-icon img{
+
+        width:34px;
+
+        height:34px;
+
+    }
+
+    .process-number{
+
+        font-size:14px;
+
+    }
+
+    .process-item h3{
+
+        font-size:15px;
+
+    }
+
+    .process-item p{
+
+        max-width:100%;
+
+        font-size:10px;
+
+    }
+
+}
+
+/* ==========================================
+   PROCESS — SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .process-grid{
+
+        grid-template-columns:1fr;
+
+        gap:32px;
+
+    }
+
+    .process-item{
+
+        display:grid;
+
+        grid-template-columns:68px 1fr;
+
+        column-gap:16px;
+
+    }
+
+    .process-icon{
+
+        grid-row:1 / span 3;
+
+        margin:0;
+
+    }
+
+    .process-number{
+
+        margin-top:2px;
+
+    }
+
+    .process-item h3{
+
+        margin-bottom:6px;
+
+    }
+
+}
+
+
+/* ==========================================
+   STATS SECTION — TABLET
+========================================== */
+
+@media (max-width:1200px){
+
+    .stats-section{
+
+        padding:22px 0;
+
+    }
+
+    .stats-wrapper{
+
+        min-height:125px;
+
+        grid-template-columns:repeat(2, 1fr);
+
+        gap:25px 35px;
+
+        padding:25px 30px;
+
+    }
+
+    .stat-item{
+
+        gap:18px;
+
+    }
+
+    .stat-icon{
+
+        width:68px;
+
+        height:68px;
+
+    }
+
+    .stat-icon img{
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+    .stat-content h3{
+
+        font-size:27px;
+
+    }
+
+    .stat-content p{
+
+        font-size:12px;
+
+    }
+
+}
+
+
+/* ==========================================
+   STATS SECTION — MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .stats-section{
+
+        padding:20px 0;
+
+    }
+
+    .stats-wrapper{
+
+        grid-template-columns:repeat(2, 1fr);
+
+        gap:25px 15px;
+
+        padding:25px 18px;
+
+        border-radius:14px;
+
+    }
+
+    .stat-item{
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        text-align:center;
+
+        gap:10px;
+
+    }
+
+    .stat-icon{
+
+        width:60px;
+
+        height:60px;
+
+    }
+
+    .stat-icon img{
+
+        width:32px;
+
+        height:32px;
+
+    }
+
+    .stat-content h3{
+
+        font-size:24px;
+
+        margin-bottom:4px;
+
+    }
+
+    .stat-content p{
+
+        font-size:11px;
+
+        white-space:normal;
+
+        line-height:1.4;
+
+    }
+
+}
+
+
+/* ==========================================
+   STATS SECTION — SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .stats-section{
+
+        padding:18px 0;
+
+    }
+
+    .stats-wrapper{
+
+        gap:22px 10px;
+
+        padding:22px 12px;
+
+    }
+
+    .stat-icon{
+
+        width:55px;
+
+        height:55px;
+
+    }
+
+    .stat-icon img{
+
+        width:29px;
+
+        height:29px;
+
+    }
+
+    .stat-content h3{
+
+        font-size:22px;
+
+    }
+
+    .stat-content p{
+
+        font-size:10px;
+
+    }
+
+}
+
+
+/* ==========================================
+   WHY CHOOSE — TABLET
+========================================== */
+
+@media (max-width:1200px){
+
+    .why-choose{
+
+        padding:80px 0;
+
+    }
+
+
+    /* ===============================
+       MAIN CONTENT
+    =============================== */
+
+    .why-choose-content{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+
+    /* ===============================
+       FEATURES
+    =============================== */
+
+    .why-features{
+
+        grid-template-columns:repeat(2, 1fr);
+
+        gap:45px 35px;
+
+    }
+
+
+    .why-feature p{
+
+        max-width:300px;
+
+    }
+
+
+    /* ===============================
+       LION
+    =============================== */
+
+    .why-visual{
+
+        height:300px;
+
+        justify-content:center;
+
+    }
+
+
+    .why-visual::before{
+
+        right:50%;
+
+        transform:translate(50%, -50%);
+
+    }
+
+
+    .why-visual img{
+
+        width:400px;
+
+        max-width:80%;
+
+        transform:none;
+
+    }
+
+
+    /* ===============================
+       BOTTOM LINE
+    =============================== */
+
+    .why-choose-content::after{
+
+        bottom:-30px;
+
+    }
+
+}
+
+
+/* ==========================================
+   WHY CHOOSE — MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .why-choose{
+
+        padding:65px 0 70px;
+
+    }
+
+
+    /* ===============================
+       SECTION LABEL
+    =============================== */
+
+    .why-choose > .container > .section-label{
+
+        margin-bottom:35px;
+
+        font-size:12px;
+
+        gap:8px;
+
+    }
+
+
+    .why-choose .section-dot{
+
+        width:7px;
+
+        height:7px;
+
+    }
+
+
+    /* ===============================
+       MAIN CONTENT
+    =============================== */
+
+    .why-choose-content{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:50px;
+
+        min-height:auto;
+
+    }
+
+
+    /* ===============================
+       FEATURES
+    =============================== */
+
+    .why-features{
+
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:32px;
+
+        width:100%;
+
+    }
+
+
+    /* ===============================
+       FEATURE
+    =============================== */
+
+    .why-feature{
+
+        display:grid;
+
+        grid-template-columns:58px 1fr;
+
+        column-gap:18px;
+
+        align-items:start;
+
+    }
+
+
+    /* ===============================
+       ICON
+    =============================== */
+
+    .why-icon{
+
+        width:58px;
+
+        height:58px;
+
+        margin:0;
+
+        grid-row:span 2;
+
+    }
+
+
+    .why-icon img{
+
+        width:27px;
+
+        height:27px;
+
+    }
+
+
+    /* ===============================
+       TITLE
+    =============================== */
+
+    .why-feature h3{
+
+        margin:3px 0 7px;
+
+        font-size:16px;
+
+        line-height:1.4;
+
+    }
+
+
+    /* ===============================
+       DESCRIPTION
+    =============================== */
+
+    .why-feature p{
+
+        max-width:none;
+
+        font-size:13px;
+
+        line-height:1.65;
+
+    }
+
+
+    /* ===============================
+       LION VISUAL
+    =============================== */
+
+    .why-visual{
+
+        width:100%;
+
+        height:260px;
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+        margin-top:5px;
+
+        overflow:hidden;
+
+    }
+
+
+    .why-visual::before{
+
+        width:220px;
+
+        height:220px;
+
+        right:50%;
+
+        transform:translate(50%, -50%);
+
+        filter:blur(60px);
+
+    }
+
+
+    .why-visual img{
+
+        width:340px;
+
+        max-width:90%;
+
+        transform:none;
+
+    }
+
+
+    /* ===============================
+       BOTTOM LINE
+    =============================== */
+
+    .why-choose-content::after{
+
+        bottom:-25px;
+
+    }
+
+}
+
+
+/* ==========================================
+   WHY CHOOSE — SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .why-choose{
+
+        padding:55px 0 60px;
+
+    }
+
+
+    /* ===============================
+       SECTION LABEL
+    =============================== */
+
+    .why-choose > .container > .section-label{
+
+        font-size:11px;
+
+        margin-bottom:30px;
+
+    }
+
+
+    /* ===============================
+       FEATURES
+    =============================== */
+
+    .why-features{
+
+        gap:28px;
+
+    }
+
+
+    /* ===============================
+       FEATURE
+    =============================== */
+
+    .why-feature{
+
+        grid-template-columns:52px 1fr;
+
+        column-gap:15px;
+
+    }
+
+
+    /* ===============================
+       ICON
+    =============================== */
+
+    .why-icon{
+
+        width:52px;
+
+        height:52px;
+
+        box-shadow:
+
+            0 0 0 6px rgba(37,99,235,.035),
+
+            0 8px 25px rgba(0,0,0,.12);
+
+    }
+
+
+    .why-icon img{
+
+        width:24px;
+
+        height:24px;
+
+    }
+
+
+    /* ===============================
+       TITLE
+    =============================== */
+
+    .why-feature h3{
+
+        font-size:15px;
+
+        margin-top:1px;
+
+    }
+
+
+    /* ===============================
+       DESCRIPTION
+    =============================== */
+
+    .why-feature p{
+
+        font-size:12.5px;
+
+        line-height:1.6;
+
+    }
+
+
+    /* ===============================
+       LION
+    =============================== */
+
+    .why-visual{
+
+        height:220px;
+
+    }
+
+
+    .why-visual img{
+
+        width:290px;
+
+        max-width:95%;
+
+    }
+
+
+    .why-visual::before{
+
+        width:180px;
+
+        height:180px;
+
+        filter:blur(50px);
+
+    }
+
+}
+
+/* ==========================================
+   CONTACT — TABLET
+========================================== */
+
+@media (max-width: 1200px){
+
+    .contact-section{
+
+        padding:90px 0 80px;
+
+    }
+
+    .contact-wrapper{
+
+        grid-template-columns:1fr 1fr;
+
+        padding:18px;
+
+    }
+
+    .contact-info{
+
+        padding:10px 20px 20px 5px;
+
+    }
+
+    .contact-title{
+
+        font-size:34px;
+
+    }
+
+    .contact-description{
+
+        font-size:15px;
+
+        line-height:1.75;
+
+        margin-bottom:30px;
+
+    }
+
+    .contact-details{
+
+        grid-template-columns:1fr;
+
+        gap:10px;
+
+    }
+
+    .contact-detail{
+
+        min-height:78px;
+
+        display:flex;
+
+        align-items:center;
+
+        gap:12px;
+
+        padding:12px;
+
+    }
+
+    .contact-detail-icon{
+
+        flex-shrink:0;
+
+        margin-bottom:0;
+
+    }
+
+    .contact-form-wrapper{
+
+        padding-left:20px;
+
+    }
+
+}
+
+
+/* ==========================================
+   CONTACT — MOBILE
+========================================== */
+
+@media (max-width: 768px){
+
+    .contact-section{
+
+        padding:70px 0 70px;
+
+    }
+
+
+    /* ===============================
+       MAIN WRAPPER
+    =============================== */
+
+    .contact-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:35px;
+
+        padding:22px 18px;
+
+        border-radius:16px;
+
+    }
+
+
+    /* ===============================
+       LEFT CONTENT
+    =============================== */
+
+    .contact-info{
+
+        padding:0;
+
+    }
+
+
+    /* ===============================
+       LABEL
+    =============================== */
+
+    .contact-label{
+
+        margin-bottom:16px;
+
+        font-size:11px;
+
+        line-height:1.5;
+
+    }
+
+    .contact-label .section-dot{
+
+        width:7px;
+
+        height:7px;
+
+    }
+
+
+    /* ===============================
+       TITLE
+    =============================== */
+
+    .contact-title{
+
+        margin-bottom:16px;
+
+        font-size:30px;
+
+        line-height:1.2;
+
+    }
+
+
+    /* ===============================
+       DESCRIPTION
+    =============================== */
+
+    .contact-description{
+
+        margin-bottom:25px;
+
+        font-size:14px;
+
+        line-height:1.75;
+
+    }
+
+
+    /* ===============================
+       CONTACT DETAILS
+    =============================== */
+
+    .contact-details{
+
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:10px;
+
+    }
+
+
+    .contact-detail{
+
+        min-height:70px;
+
+        display:flex;
+
+        align-items:center;
+
+        gap:12px;
+
+        padding:12px;
+
+    }
+
+
+    .contact-detail-icon{
+
+        width:38px;
+
+        height:38px;
+
+        flex-shrink:0;
+
+        margin-bottom:0;
+
+        font-size:17px;
+
+    }
+
+    .contact-detail-icon img{
+
+        width:19px;
+        height:19px;
+
+    }
+
+
+    .contact-detail-content h3{
+
+        margin-bottom:3px;
+
+        font-size:13px;
+
+    }
+
+
+    .contact-detail-content a,
+    .contact-detail-content p{
+
+        font-size:11px;
+
+    }
+
+
+    /* ===============================
+       FORM
+    =============================== */
+
+    .contact-form-wrapper{
+
+        padding:0;
+
+        border-left:none;
+
+        border-top:1px solid var(--border-color);
+
+        padding-top:30px;
+
+    }
+
+
+    .contact-form{
+
+        gap:11px;
+
+    }
+
+
+    /* ===============================
+       NAME + EMAIL
+    =============================== */
+
+    .form-row{
+
+        grid-template-columns:1fr;
+
+        gap:11px;
+
+    }
+
+
+    /* ===============================
+       INPUTS
+    =============================== */
+
+    .form-group input{
+
+        height:50px;
+
+        padding:0 14px;
+
+        font-size:13px;
+
+    }
+
+
+    .form-group textarea{
+
+        min-height:130px;
+
+        padding:14px;
+
+        font-size:13px;
+
+    }
+
+
+    /* ===============================
+       SUBMIT BUTTON
+    =============================== */
+
+    .contact-submit{
+
+        width:100%;
+
+        height:50px;
+
+        font-size:13px;
+
+    }
+
+}
+
+
+/* ==========================================
+   CONTACT — SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px){
+
+    .contact-section{
+
+        padding:60px 0;
+
+    }
+
+
+    .contact-wrapper{
+
+        padding:20px 15px;
+
+        gap:30px;
+
+    }
+
+
+    .contact-label{
+
+        font-size:10px;
+
+    }
+
+
+    .contact-title{
+
+        font-size:26px;
+
+    }
+
+
+    .contact-description{
+
+        font-size:13px;
+
+    }
+
+
+    .contact-detail{
+
+        padding:11px;
+
+    }
+
+
+    .contact-detail-icon{
+
+        width:36px;
+
+        height:36px;
+
+    }
+
+
+    .contact-detail-content a,
+    .contact-detail-content p{
+
+        font-size:10px;
+
+    }
+
+
+    .form-group input{
+
+        height:48px;
+
+    }
+
+
+    .form-group textarea{
+
+        min-height:120px;
+
+    }
+
+}
+
+
+/* ==========================================
+   FOOTER — TABLET
+========================================== */
+
+@media (max-width: 1100px){
+
+    .footer{
+
+        padding-top:60px;
+
+    }
+
+    .footer-main{
+
+        grid-template-columns:
+            1.5fr
+            1fr
+            1fr
+            1fr;
+
+        gap:40px;
+
+    }
+
+    /* Brand takes full row */
+
+    .footer-brand{
+
+        grid-column:1 / -1;
+
+        max-width:420px;
+
+    }
+
+}
+
+
+/* ==========================================
+   FOOTER — MOBILE
+========================================== */
+
+@media (max-width: 768px){
+
+    .footer{
+
+        padding-top:50px;
+
+    }
+
+
+    /* ======================================
+       MAIN FOOTER
+    ====================================== */
+
+    .footer-main{
+
+        display:grid;
+
+        grid-template-columns:1fr 1fr;
+
+        gap:40px 25px;
+
+        padding-bottom:40px;
+
+    }
+
+
+    /* ======================================
+       BRAND
+    ====================================== */
+
+    .footer-brand{
+
+        grid-column:1 / -1;
+
+        max-width:100%;
+
+    }
+
+
+    .footer-logo{
+
+        margin-bottom:15px;
+
+    }
+
+
+    .footer-logo img{
+
+        width:175px;
+
+    }
+
+
+    .footer-description{
+
+        max-width:380px;
+
+        font-size:13px;
+
+        line-height:1.7;
+
+        margin-bottom:20px;
+
+    }
+
+
+    /* ======================================
+       SOCIAL ICONS
+    ====================================== */
+
+    .footer-socials{
+
+        gap:10px;
+
+    }
+
+
+    .social-link{
+
+        width:40px;
+
+        height:40px;
+
+    }
+
+
+    .social-link img{
+
+        width:17px;
+
+        height:17px;
+
+    }
+
+
+    /* ======================================
+       FOOTER COLUMNS
+    ====================================== */
+
+    .footer-column{
+
+        width:100%;
+
+    }
+
+
+    .footer-column h3{
+
+        font-size:15px;
+
+        margin-bottom:18px;
+
+    }
+
+
+    .footer-column ul{
+
+        gap:11px;
+
+    }
+
+
+    .footer-column ul li a{
+
+        font-size:13px;
+
+    }
+
+
+    /* ======================================
+       CONTACT
+    ====================================== */
+
+    .footer-contact{
+
+        grid-column:1 / -1;
+
+    }
+
+
+    .footer-contact-item{
+
+        font-size:13px;
+
+        margin-bottom:14px;
+
+    }
+
+
+    .footer-contact-icon{
+
+        width:32px;
+
+        height:32px;
+
+        min-width:32px;
+
+    }
+
+
+    .footer-contact-icon img{
+
+        width:16px;
+
+        height:16px;
+
+    }
+
+
+    /* ======================================
+       BOTTOM
+    ====================================== */
+
+    .footer-bottom{
+
+        min-height:58px;
+
+        padding:15px 0;
+
+    }
+
+
+    .footer-bottom p{
+
+        font-size:12px;
+
+        line-height:1.6;
+
+    }
+
+}
+
+
+/* ==========================================
+   FOOTER — SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px){
+
+    .footer{
+
+        padding-top:45px;
+
+    }
+
+
+    .footer-main{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:35px 20px;
+
+    }
+
+
+    .footer-logo img{
+
+        width:160px;
+
+    }
+
+
+    .footer-description{
+
+        font-size:12px;
+
+        line-height:1.7;
+
+    }
+
+
+    .footer-column h3{
+
+        font-size:14px;
+
+        margin-bottom:15px;
+
+    }
+
+
+    .footer-column ul{
+
+        gap:10px;
+
+    }
+
+
+    .footer-column ul li a{
+
+        font-size:12px;
+
+    }
+
+
+    .footer-contact-item{
+
+        font-size:12px;
+
+        gap:9px;
+
+    }
+
+
+    .footer-contact-icon{
+
+        width:30px;
+
+        height:30px;
+
+        min-width:30px;
+
+    }
+
+
+    .footer-bottom p{
+
+        font-size:11px;
+
+        padding:0 15px;
+
+    }
+
+}
+
+
+/* =========================================================
+   ABOUT PAGE HERO — RESPONSIVE
+   ========================================================= */
+
+
+/* =========================================================
+   LARGE TABLET
+   ========================================================= */
+
+@media (max-width: 1200px){
+
+    .about-hero{
+
+        min-height:auto;
+
+        padding:130px 0 70px;
+
+    }
+
+
+    .about-hero-wrapper{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:40px;
+
+        min-height:auto;
+
+    }
+
+
+    .about-hero-content{
+
+        max-width:100%;
+
+    }
+
+
+    .about-hero h1{
+
+        font-size:clamp(34px, 4vw, 48px);
+
+    }
+
+
+    .about-hero-description{
+
+        max-width:520px;
+
+    }
+
+
+    .about-hero-visual{
+
+        min-height:430px;
+
+    }
+
+
+    .about-hero-image{
+
+        width:min(100%, 470px);
+
+    }
+
+
+    /* ABOUT HERO STATS */
+
+    .about-hero-stats{
+
+        width:100%;
+
+        max-width:100%;
+
+        grid-template-columns:repeat(3, minmax(0, 1fr));
+
+        gap:14px;
+
+        margin-top:28px;
+
+    }
+
+
+    .about-hero .about-stat{
+
+        min-height:110px;
+
+        padding:18px 16px;
+
+        gap:12px;
+
+    }
+
+
+    .about-hero .about-stat-icon{
+
+        flex:0 0 44px;
+
+        width:44px;
+
+        height:44px;
+
+    }
+
+
+    .about-hero .about-stat-icon img{
+
+        width:22px;
+
+        height:22px;
+
+    }
+
+
+    .about-hero .about-stat-number{
+
+        font-size:26px;
+
+    }
+
+
+    .about-hero .about-stat-label{
+
+        font-size:11px;
+
+        line-height:1.4;
+
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px){
+
+    .about-hero{
+
+        padding:120px 0 65px;
+
+    }
+
+
+    .about-hero-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+        text-align:center;
+
+    }
+
+
+    .about-hero-content{
+
+        max-width:700px;
+
+        margin:0 auto;
+
+    }
+
+
+    .about-hero .section-label{
+
+        justify-content:center;
+
+    }
+
+
+    .about-hero-description{
+
+        margin-left:auto;
+
+        margin-right:auto;
+
+    }
+
+
+    .about-hero-buttons{
+
+        justify-content:center;
+
+    }
+
+
+    .about-hero-visual{
+
+        min-height:auto;
+
+        order:2;
+
+    }
+
+
+    .about-hero-image{
+
+        width:min(100%, 500px);
+
+        margin:0 auto;
+
+    }
+
+
+    /* Stats */
+
+    .about-hero-stats{
+
+        width:100%;
+
+        max-width:720px;
+
+        margin:30px auto 0;
+
+        grid-template-columns:repeat(3, minmax(0, 1fr));
+
+        gap:12px;
+
+    }
+
+
+    .about-hero .about-stat{
+
+        min-height:105px;
+
+        padding:16px 12px;
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        text-align:center;
+
+        gap:8px;
+
+    }
+
+
+    .about-hero .about-stat-info{
+
+        align-items:center;
+
+    }
+
+
+    .about-hero .about-stat::before{
+
+        left:50%;
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px){
+
+    .about-hero{
+
+        min-height:auto;
+
+        padding:105px 0 55px;
+
+    }
+
+
+    .about-hero-wrapper{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:38px;
+
+    }
+
+
+    .about-hero-content{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+
+    .about-hero .section-label{
+
+        margin-bottom:18px;
+
+        font-size:10px;
+
+        letter-spacing:1.5px;
+
+        justify-content:center;
+
+    }
+
+
+    .about-hero .section-dot{
+
+        width:6px;
+
+        height:6px;
+
+    }
+
+
+    .about-hero h1{
+
+        font-size:clamp(32px, 8vw, 42px);
+
+        line-height:1.15;
+
+        letter-spacing:-1.2px;
+
+    }
+
+
+    .about-hero-description{
+
+        max-width:100%;
+
+        margin-top:20px;
+
+        font-size:14px;
+
+        line-height:1.7;
+
+    }
+
+
+    .about-hero-description.secondary{
+
+        margin-top:12px;
+
+        font-size:13px;
+
+    }
+
+
+    /* Buttons */
+
+    .about-hero-buttons{
+
+        width:100%;
+
+        margin-top:26px;
+
+        display:flex;
+
+        justify-content:center;
+
+        gap:10px;
+
+    }
+
+
+    .about-outline-btn{
+
+        height:44px;
+
+        padding:0 18px;
+
+        font-size:14px;
+
+    }
+
+
+    /* Image */
+
+    .about-hero-visual{
+
+        width:100%;
+
+        min-height:auto;
+
+    }
+
+
+    .about-hero-glow{
+
+        width:280px;
+
+        height:280px;
+
+        filter:blur(60px);
+
+    }
+
+
+    .about-hero-image{
+
+        width:100%;
+
+        max-width:430px;
+
+    }
+
+
+    /* =====================================================
+       MOBILE STATS
+       ===================================================== */
+
+    .about-hero-stats{
+
+        width:100%;
+
+        max-width:100%;
+
+        margin:24px auto 0;
+
+        grid-template-columns:1fr;
+
+        gap:10px;
+
+    }
+
+
+    .about-hero .about-stat{
+
+        width:100%;
+
+        min-height:78px;
+
+        padding:14px 18px;
+
+        flex-direction:row;
+
+        justify-content:flex-start;
+
+        align-items:center;
+
+        gap:14px;
+
+        text-align:left;
+
+        border-radius:15px;
+
+    }
+
+
+    .about-hero .about-stat-info{
+
+        align-items:flex-start;
+
+        min-width:0;
+
+    }
+
+
+    .about-hero .about-stat-icon{
+
+        flex:0 0 44px;
+
+        width:44px;
+
+        height:44px;
+
+        border-radius:12px;
+
+    }
+
+
+    .about-hero .about-stat-icon img{
+
+        width:21px;
+
+        height:21px;
+
+    }
+
+
+    .about-hero .about-stat-number{
+
+        margin-bottom:4px;
+
+        font-size:24px;
+
+    }
+
+
+    .about-hero .about-stat-label{
+
+        font-size:11px;
+
+        line-height:1.4;
+
+        white-space:normal;
+
+    }
+
+
+    .about-hero .about-stat::before{
+
+        top:0;
+
+        left:18px;
+
+        width:32px;
+
+        transform:none;
+
+    }
+
+
+    .about-hero .about-stat::after{
+
+        width:90px;
+
+        height:90px;
+
+        top:-45px;
+
+        right:-30px;
+
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px){
+
+    .about-hero{
+
+        padding:95px 0 45px;
+
+    }
+
+
+    .about-hero h1{
+
+        font-size:32px;
+
+    }
+
+
+    .about-hero-description{
+
+        font-size:13px;
+
+    }
+
+
+    .about-hero-description.secondary{
+
+        font-size:12px;
+
+    }
+
+
+    .about-hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+
+    .about-outline-btn{
+
+        width:100%;
+
+        max-width:250px;
+
+    }
+
+
+    .about-hero-image{
+
+        max-width:340px;
+
+    }
+
+
+    .about-hero-stats{
+
+        gap:9px;
+
+    }
+
+
+    .about-hero .about-stat{
+
+        min-height:72px;
+
+        padding:12px 14px;
+
+    }
+
+
+    .about-hero .about-stat-icon{
+
+        flex:0 0 40px;
+
+        width:40px;
+
+        height:40px;
+
+    }
+
+
+    .about-hero .about-stat-number{
+
+        font-size:22px;
+
+    }
+
+
+    .about-hero .about-stat-label{
+
+        font-size:10px;
+
+    }
+
+}
+
+
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:1100px){
+
+    .about-who-we-are{
+
+        padding:80px 0;
+
+    }
+
+
+    .about-who-wrapper{
+
+        gap:50px;
+
+    }
+
+
+    .about-who-title{
+
+        font-size:40px;
+
+    }
+
+
+    .about-who-description{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+
+    .about-who-highlights{
+
+        gap:14px 20px;
+
+    }
+
+
+    .about-who-highlight{
+
+        font-size:13px;
+
+    }
+
+
+    .about-who-image-frame img{
+
+        height:360px;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .about-who-we-are{
+
+        padding:70px 0;
+
+    }
+
+
+    .about-who-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+
+    .about-who-content{
+
+        max-width:none;
+
+    }
+
+
+    .about-who-content .section-label{
+
+        margin-bottom:18px;
+
+        font-size:12px;
+
+    }
+
+
+    .about-who-title{
+
+        margin-bottom:18px;
+
+        font-size:34px;
+
+        line-height:1.15;
+
+        letter-spacing:-.8px;
+
+    }
+
+
+    .about-who-description{
+
+        margin-bottom:26px;
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+
+    .about-who-highlights{
+
+        grid-template-columns:1fr;
+
+        gap:14px;
+
+    }
+
+
+    .about-who-highlight{
+
+        font-size:14px;
+
+    }
+
+
+    .about-who-image{
+
+        justify-content:center;
+
+    }
+
+
+    .about-who-image-frame{
+
+        max-width:100%;
+
+        border-radius:16px;
+
+    }
+
+
+    .about-who-image-frame img{
+
+        height:320px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .about-who-we-are{
+
+        padding:60px 0;
+
+    }
+
+
+    .about-who-title{
+
+        font-size:30px;
+
+    }
+
+
+    .about-who-description{
+
+        font-size:14px;
+
+    }
+
+
+    .about-who-image-frame img{
+
+        height:270px;
+
+    }
+
+
+    .about-check{
+
+        width:19px;
+        height:19px;
+
+        flex-basis:19px;
+
+    }
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:1100px){
+
+    .about-values{
+
+        padding:80px 0;
+
+    }
+
+
+    .about-values-grid{
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap:18px;
+
+    }
+
+
+    .about-value-card{
+
+        min-height:250px;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .about-values{
+
+        padding:70px 0;
+
+    }
+
+
+    .about-values-header{
+
+        margin-bottom:24px;
+
+    }
+
+
+    .about-values-header .section-label{
+
+        font-size:12px;
+
+    }
+
+
+    .about-values-grid{
+
+        grid-template-columns:1fr;
+
+        gap:16px;
+
+    }
+
+
+    .about-value-card{
+
+        min-height:230px;
+
+        padding:30px 24px;
+
+    }
+
+
+    .about-value-icon{
+
+        width:54px;
+        height:54px;
+
+        margin-bottom:18px;
+
+    }
+
+
+    .about-value-icon img{
+
+        width:30px;
+        height:30px;
+
+    }
+
+
+    .about-value-card h3{
+
+        font-size:20px;
+
+    }
+
+
+    .about-value-card p{
+
+        font-size:13px;
+
+        max-width:300px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .about-values{
+
+        padding:60px 0;
+
+    }
+
+
+    .about-value-card{
+
+        min-height:220px;
+
+        padding:28px 20px;
+
+        border-radius:14px;
+
+    }
+
+
+    .about-value-icon{
+
+        width:50px;
+        height:50px;
+
+        border-radius:14px;
+
+    }
+
+
+    .about-value-icon img{
+
+        width:28px;
+        height:28px;
+
+    }
+
+
+    .about-value-card h3{
+
+        font-size:19px;
+
+    }
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:900px){
+
+    .about-mission{
+
+        padding:75px 0 90px;
+
+    }
+
+
+    .about-mission-grid{
+
+        grid-template-columns:1fr;
+
+        gap:18px;
+
+    }
+
+
+    .about-mission-card{
+
+        min-height:250px;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .about-mission{
+
+        padding:65px 0 80px;
+
+    }
+
+
+    .about-mission-card{
+
+        min-height:235px;
+
+        padding:36px 28px;
+
+        border-radius:15px;
+
+    }
+
+
+    .about-mission-icon{
+
+        width:58px;
+        height:58px;
+
+        margin-bottom:18px;
+
+    }
+
+
+    .about-mission-icon img{
+
+        width:31px;
+        height:31px;
+
+    }
+
+
+    .about-mission-card h2{
+
+        font-size:22px;
+
+        margin-bottom:12px;
+
+    }
+
+
+    .about-mission-card p{
+
+        font-size:13px;
+
+        line-height:1.7;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .about-mission{
+
+        padding:55px 0 70px;
+
+    }
+
+
+    .about-mission-card{
+
+        min-height:225px;
+
+        padding:32px 20px;
+
+        border-radius:14px;
+
+    }
+
+
+    .about-mission-icon{
+
+        width:54px;
+        height:54px;
+
+        border-radius:50%;
+
+    }
+
+
+    .about-mission-icon img{
+
+        width:29px;
+        height:29px;
+
+    }
+
+
+    .about-mission-card h2{
+
+        font-size:20px;
+
+    }
+
+
+    .about-mission-card p{
+
+        font-size:12.5px;
+
+        max-width:310px;
+
+    }
+
+}
+
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:1100px){
+
+    .why-leovision{
+
+        padding:80px 0 90px;
+
+    }
+
+
+    .why-leovision-grid{
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+        gap:18px;
+
+    }
+
+
+    .why-leovision-card{
+
+        min-height:235px;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .why-leovision{
+
+        padding:70px 0 80px;
+
+    }
+
+
+    .why-leovision-header{
+
+        margin-bottom:24px;
+
+    }
+
+
+    .why-leovision-label{
+
+        font-size:12px;
+
+    }
+
+
+    .why-leovision-grid{
+
+        grid-template-columns:1fr;
+
+        gap:16px;
+
+    }
+
+
+    .why-leovision-card{
+
+        min-height:220px;
+
+        padding:30px 24px;
+
+    }
+
+
+    .why-leovision-icon{
+
+        width:58px;
+        height:58px;
+
+        margin-bottom:18px;
+
+    }
+
+
+    .why-leovision-icon img{
+
+        width:31px;
+        height:31px;
+
+    }
+
+
+    .why-leovision-card h3{
+
+        font-size:19px;
+
+    }
+
+
+    .why-leovision-card p{
+
+        max-width:300px;
+
+        font-size:13px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .why-leovision{
+
+        padding:60px 0 70px;
+
+    }
+
+
+    .why-leovision-card{
+
+        min-height:210px;
+
+        padding:28px 20px;
+
+        border-radius:14px;
+
+    }
+
+
+    .why-leovision-icon{
+
+        width:54px;
+        height:54px;
+
+    }
+
+
+    .why-leovision-icon img{
+
+        width:29px;
+        height:29px;
+
+    }
+
+
+    .why-leovision-card h3{
+
+        font-size:18px;
+
+    }
+
+
+    .why-leovision-card p{
+
+        font-size:12.5px;
+
+    }
+
+}
+
+
+
+/* ==========================================
+   LARGE TABLET
+========================================== */
+
+@media (max-width:1100px){
+
+    .about-tech{
+
+        padding:70px 0 80px;
+
+    }
+
+
+    .about-tech-grid{
+
+        grid-template-columns:
+            repeat(5, minmax(0, 1fr));
+
+        gap:14px;
+
+    }
+
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:768px){
+
+    .about-tech{
+
+        padding:65px 0 75px;
+
+    }
+
+
+    .about-tech-header{
+
+        margin-bottom:24px;
+
+    }
+
+
+    .about-tech-label{
+
+        font-size:12px;
+
+    }
+
+
+    .about-tech-grid{
+
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+
+        gap:12px;
+
+    }
+
+
+    .about-tech-card{
+
+        min-height:105px;
+
+        padding:16px 8px;
+
+        gap:10px;
+
+    }
+
+
+    .about-tech-card img{
+
+        width:38px;
+
+        height:38px;
+
+    }
+
+
+    .about-tech-card span{
+
+        font-size:11px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .about-tech{
+
+        padding:55px 0 65px;
+
+    }
+
+
+    .about-tech-grid{
+
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+
+        gap:9px;
+
+    }
+
+
+    .about-tech-card{
+
+        min-height:95px;
+
+        padding:14px 5px;
+
+        border-radius:10px;
+
+        gap:8px;
+
+    }
+
+
+    .about-tech-card img{
+
+        width:34px;
+
+        height:34px;
+
+    }
+
+
+    .about-tech-card span{
+
+        font-size:10px;
+
+    }
+
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:900px){
+
+    .about-cta{
+
+        padding:65px 0 80px;
+
+    }
+
+
+    .about-cta-card{
+
+        min-height:200px;
+
+        padding:38px 45px;
+
+    }
+
+
+    .about-cta-content h2{
+
+        font-size:28px;
+
+    }
+
+
+    .about-cta-content p{
+
+        font-size:14px;
+
+    }
+
+
+    .about-cta-lion{
+
+        width:50%;
+
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .about-cta{
+
+        padding:60px 0 70px;
+
+    }
+
+
+    .about-cta-card{
+
+        min-height:230px;
+
+        padding:32px 25px;
+
+        border-radius:15px;
+
+    }
+
+
+    .about-cta-content{
+
+        max-width:70%;
+
+    }
+
+
+    .about-cta-content h2{
+
+        font-size:24px;
+
+        line-height:1.3;
+
+    }
+
+
+    .about-cta-content p{
+
+        max-width:330px;
+
+        margin-bottom:20px;
+
+        font-size:13px;
+
+    }
+
+
+    .about-cta-btn{
+
+        min-width:145px;
+
+        padding:11px 18px;
+
+        gap:12px;
+
+        font-size:13px;
+
+    }
+
+
+    .about-cta-arrow{
+
+        font-size:18px;
+
+    }
+
+
+    .about-cta-lion{
+
+        width:58%;
+
+    }
+
+
+    .about-cta-lion img{
+
+        opacity:.5;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+    .about-cta{
+
+        padding:50px 0 60px;
+
+    }
+
+
+    .about-cta-card{
+
+        min-height:220px;
+
+        padding:28px 20px;
+
+    }
+
+
+    .about-cta-content{
+
+        max-width:78%;
+
+    }
+
+
+    .about-cta-content h2{
+
+        font-size:21px;
+
+    }
+
+
+    .about-cta-content p{
+
+        font-size:12px;
+
+        line-height:1.55;
+
+    }
+
+
+    .about-cta-btn{
+
+        min-width:135px;
+
+        padding:10px 15px;
+
+        font-size:12px;
+
+    }
+
+
+    .about-cta-lion{
+
+        width:62%;
+
+    }
+
+}
+
+
+/* ==========================================
+   SERVICES HERO — TABLET
+========================================== */
+
+@media (max-width: 1100px) {
+
+    .services-hero {
+        min-height: auto;
+        padding: 90px 0 70px;
+    }
+
+    .services-hero-content {
+        grid-template-columns: 1fr 0.9fr;
+        gap: 40px;
+    }
+
+    .services-hero h1 {
+        font-size: clamp(46px, 6vw, 64px);
+        letter-spacing: -2px;
+    }
+
+    .services-hero-text p {
+        font-size: 16px;
+        max-width: 500px;
+    }
+
+    .services-hero-visual {
+        min-height: 450px;
+    }
+
+    .services-hero-lion {
+        width: 100%;
+        max-width: 430px;
+        max-height: 450px;
+    }
+
+    .services-hero-glow {
+        width: 320px;
+        height: 320px;
+    }
+
+    .services-floating-card {
+        min-width: 130px;
+        padding: 11px 13px;
+    }
+
+    .services-floating-card .floating-icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .card-web {
+        left: -5%;
+    }
+
+    .card-design {
+        right: -5%;
+    }
+
+    .card-ai {
+        left: 2%;
+    }
+}
+
+
+/* ==========================================
+   SERVICES HERO — MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+    .services-hero {
+        padding: 75px 0 60px;
+    }
+
+    .services-hero-content {
+        grid-template-columns: 1fr;
+        gap: 45px;
+        text-align: center;
+    }
+
+
+    /* --------------------------------------
+       TEXT
+    -------------------------------------- */
+
+    .services-hero-text {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .services-hero-label {
+        justify-content: center;
+
+        margin-bottom: 18px;
+
+        font-size: 12px;
+        letter-spacing: 1.8px;
+    }
+
+    .services-hero-label::before {
+        width: 22px;
+    }
+
+    .services-hero h1 {
+        font-size: clamp(40px, 10vw, 56px);
+        line-height: 1.08;
+        letter-spacing: -1.5px;
+
+        margin-bottom: 20px;
+    }
+
+    .services-hero-text p {
+        max-width: 520px;
+        margin: 0 auto 28px;
+
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+
+    /* --------------------------------------
+       BUTTONS
+    -------------------------------------- */
+
+    .services-hero-buttons {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .services-hero-btn {
+        min-height: 50px;
+        padding: 0 20px;
+
+        font-size: 13px;
+    }
+
+
+    /* --------------------------------------
+       VISUAL
+    -------------------------------------- */
+
+    .services-hero-visual {
+        min-height: 390px;
+
+        width: 100%;
+        max-width: 560px;
+
+        margin: 0 auto;
+    }
+
+    .services-hero-lion {
+        width: 80%;
+        max-width: 390px;
+        max-height: 390px;
+    }
+
+    .services-hero-glow {
+        width: 280px;
+        height: 280px;
+
+        filter: blur(60px);
+    }
+
+
+    /* --------------------------------------
+       FLOATING CARDS
+    -------------------------------------- */
+
+    .services-floating-card {
+        min-width: 125px;
+        padding: 10px 12px;
+
+        gap: 9px;
+
+        border-radius: 12px;
+    }
+
+    .services-floating-card .floating-icon {
+        width: 32px;
+        height: 32px;
+
+        border-radius: 8px;
+
+        font-size: 15px;
+    }
+
+    .services-floating-card strong {
+        font-size: 12px;
+    }
+
+    .services-floating-card small {
+        font-size: 10px;
+    }
+
+    .card-web {
+        top: 5%;
+        left: 3%;
+    }
+
+    .card-design {
+        top: 43%;
+        right: 0;
+    }
+
+    .card-ai {
+        bottom: 5%;
+        left: 8%;
+    }
+}
+
+
+/* ==========================================
+   SERVICES HERO — SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px) {
+
+    .services-hero {
+        padding: 60px 0 45px;
+    }
+
+    .services-hero-content {
+        gap: 35px;
+    }
+
+
+    /* --------------------------------------
+       TEXT
+    -------------------------------------- */
+
+    .services-hero h1 {
+        font-size: 39px;
+        line-height: 1.08;
+        letter-spacing: -1.2px;
+    }
+
+    .services-hero-text p {
+        font-size: 14px;
+        line-height: 1.65;
+
+        padding: 0 5px;
+    }
+
+
+    /* --------------------------------------
+       BUTTONS
+    -------------------------------------- */
+
+    .services-hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .services-hero-btn {
+        width: 100%;
+        max-width: 260px;
+    }
+
+
+    /* --------------------------------------
+       VISUAL
+    -------------------------------------- */
+
+    .services-hero-visual {
+        min-height: 320px;
+    }
+
+    .services-hero-lion {
+        width: 85%;
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .services-hero-glow {
+        width: 220px;
+        height: 220px;
+
+        filter: blur(50px);
+    }
+
+
+    /* --------------------------------------
+       FLOATING CARDS
+    -------------------------------------- */
+
+    .services-floating-card {
+        min-width: 105px;
+
+        padding: 8px 9px;
+
+        gap: 7px;
+
+        border-radius: 10px;
+    }
+
+    .services-floating-card .floating-icon {
+        width: 28px;
+        height: 28px;
+
+        font-size: 13px;
+    }
+
+    .services-floating-card strong {
+        font-size: 10px;
+    }
+
+    .services-floating-card small {
+        font-size: 9px;
+    }
+
+    .card-web {
+        top: 3%;
+        left: 0;
+    }
+
+    .card-design {
+        top: 42%;
+        right: 0;
+    }
+
+    .card-ai {
+        bottom: 2%;
+        left: 4%;
+    }
+}
